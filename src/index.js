@@ -1,6 +1,5 @@
 module.exports = function multiply(first, second) {
-  // your solution
-  const product = Array(first.length+second.length).fill(0);
+        const product = Array(first.length+second.length).fill(0);
         for (let i = first.length; i--; null) {
             let carry = 0;
             for (let j = second.length; j--; null) {
@@ -17,6 +16,4 @@ module.exports = function multiply(first, second) {
         } else {
             return product.join('');
         }
-        return product;
-    }
-}
+    };
